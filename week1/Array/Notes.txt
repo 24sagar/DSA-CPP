@@ -1,0 +1,65 @@
+What is an Array?
+An array is a collection of items of the same variable type that are stored at contiguous memory locations. 
+It’s one of the most popular and simple data structures and is often used to implement other data structures. 
+Each item in an array is indexed starting with 0.
+
+Basic terminologies of array
+Array Index: In an array, elements are identified by their indexes. Array index starts from 0.
+Array element: Elements are items stored in an array and can be accessed by their index.
+Array Length:  The length of an array is determined by the number of elements it can contain. 
+
+Representation of Array
+int arr[5];	 // This array will store integer type element 
+char arr[10]; // This array will store char type element 
+float arr[20]; // This array will store float type element
+
+the above declaration is static or compile-time memory allocation
+
+Below are the languages that support dynamic memory allocation
+int *array = new int[5];
+
+Types of arrays: 
+One-dimensional array (1-D arrays): You can imagine a 1d array as a row, where elements are stored one after another.
+Two-dimensional array: 2-D Multidimensional arrays can be considered as an array of arrays or as a matrix consisting of rows and columns.
+
+Types of Array operations:
+Traversal: Traverse through the elements of an array.
+Insertion: Inserting a new element in an array.
+Deletion: Deleting element from the array.
+Searching:  Search for an element in the array.
+Sorting: Maintaining the order of elements in the array.
+
+Applications of Array Data Structure:
+
+Below are some applications of arrays.
+
+Storing and accessing data: Arrays are used to store and retrieve data in a specific order. For example, an array can be used to store the scores of a group of students, or the temperatures recorded by a weather station.
+Sorting: Arrays can be used to sort data in ascending or descending order. Sorting algorithms such as bubble sort, merge sort, and quicksort rely heavily on arrays.
+Searching: Arrays can be searched for specific elements using algorithms such as linear search and binary search.
+Matrices: Arrays are used to represent matrices in mathematical computations such as matrix multiplication, linear algebra, and image processing.
+Stacks and queues: Arrays are used as the underlying data structure for implementing stacks and queues, which are commonly used in algorithms and data structures.
+Graphs: Arrays can be used to represent graphs in computer science. Each element in the array represents a node in the graph, and the relationships between the nodes are represented by the values stored in the array.
+Dynamic programming: Dynamic programming algorithms often use arrays to store intermediate results of subproblems in order to solve a larger problem.
+
+What is a Subarray?
+A subarray is a contiguous part of array, i.e., Subarray is an array that is inside another array.
+
+What is a Subsequence?
+A subsequence is a sequence that can be derived from another sequence by removing zero or more elements, without changing the order of the remaining elements.
+
+What is a Subset?
+If a Set has all its elements belonging to other sets, this set will be known as a subset of the other set.
+
+
+Array | Searching
+
+There are several searching algorithms. The most commonly used among them are:
+
+Linear Search : time complexity O(N)
+Binary Search : time complexity O(log2N)
+Ternary Search : time complexity O(log3N)
+
+Sorting
+In-Place Sorting: In-place sorting means arranging the elements without using any extra space other than the given array.
+
+Stability of Sorting: A sorting algorithm is said to be stable if the relative order of the same valued elements is preserved in the final sorted array 
