@@ -1,0 +1,51 @@
+
+What is Hash Table?
+A Hash table is defined as a data structure used to insert, look up, and remove key-value pairs quickly.
+It operates on the hashing concept, where each key is translated by a hash function into a distinct index in an array.
+The index functions as a storage location for the matching value. In simple words, it maps the keys with the value.
+
+What is Load factor?
+A hash table’s load factor is determined by how many elements are kept there in relation to how big the table is.
+
+The table may be cluttered and have longer search times and collisions if the load factor is high. 
+An ideal load factor can be maintained with the use of a good hash function and proper table resizing
+
+What is a Hash function?
+A Function that translates keys to array indices is known as a hash function.
+
+Collision resolution techniques:
+Collisions happen when two or more keys point to the same array index. 
+Chaining, open addressing, and double hashing are a few techniques for resolving collisions.
+
+Open addressing: collisions are handled by looking for the following empty space in the table. 
+If the first slot is already taken, the hash function is applied to the subsequent slots until one is left empty. 
+There are various ways to use this approach, including double hashing, linear probing, and quadratic probing.
+
+Separate Chaining:
+In separate chaining, a linked list of objects that hash to each slot in the hash table is present.
+Two keys are included in the linked list if they hash to the same slot. This method is rather simple to use and can manage several collisions.
+
+What is Hashing?
+Hashing refers to the process of generating a fixed-size output from an input of variable size using the mathematical formulas known as hash functions.
+
+Components of Hashing
+
+Key: A Key can be anything string or integer which is fed as input in the hash function the technique that determines an index or location for 
+     storage of an item in a data structure. 
+
+Hash Function: The hash function receives the input key and returns the index of an element in an array called a hash table. 
+The index is known as the hash index.
+
+Hash Table: Hash table is a data structure that maps keys to values using a special function called a hash function. 
+Hash stores the data in an associative manner in an array where each data value has its own unique index.
+
+What is Collision?
+The hashing process generates a small number for a big key, so there is a possibility that two keys could produce the same value.
+
+Advantages of Hashing in Data Structures
+Key-value support: Hashing is ideal for implementing key-value data structures.
+Fast data retrieval: Hashing allows for quick access to elements with constant-time complexity.
+Efficiency: Insertion, deletion, and searching operations are highly efficient.
+Memory usage reduction: Hashing requires less memory as it allocates a fixed space for storing elements.
+Scalability: Hashing performs well with large data sets, maintaining constant access time.
+Security and encryption: Hashing is essential for secure data storage and integrity verification.

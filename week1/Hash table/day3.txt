@@ -1,0 +1,10 @@
+Day 3: Hash Table
+
+Study Theory (1 hour)
+•	Basic Operations: Insertion, deletion, searching.
+•	Collision Handling: Chaining, separate chaining.
+
+Practice (1 hour)
+•	Implement basic hash table operations: insertion, deletion, searching.
+•	Solve problems related to hash table collision handling.
+
