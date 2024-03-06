@@ -1,0 +1,9 @@
+Day 7: Hash Table (continued)
+
+Study Theory (1 hour)
+•	Linear Probing: Handling collisions using linear probing.
+•	Quadratic Probing: Handling collisions using quadratic probing.
+
+Practice (1 hour)
+•	Implement hash table collision handling using linear probing.
+•	Implement hash table collision handling using quadratic probing.

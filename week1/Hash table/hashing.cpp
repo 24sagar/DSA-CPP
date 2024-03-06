@@ -2,10 +2,11 @@
 #include <vector>
 #include <list>
 #include <cmath>
+using namespace std;
 
 class Hashing {
 private:
-    std::vector<std::list<int>> hashtable;
+    vector<list<int>> hashtable;
     int bucket;
 
     int hashFunction(int key) {
@@ -25,11 +26,13 @@ public:
 
     void printTable() {
         for (int i = 0; i < bucket; i++) {
-            std::cout << "Bucket " << i << ": ";
+            cout << "Bucket " << i << ": ";
             for (auto it = hashtable[i].begin(); it != hashtable[i].end(); it++) {
-                std::cout << *it << " ";
+                cout << *it << " ";
             }
-            std::cout << std::endl;
+
+            
+            cout << endl;
         }
     }
 };

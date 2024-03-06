@@ -1,0 +1,9 @@
+Day 1: Sorting and Searching
+
+Study Theory (1 hour)
+•	Sorting Algorithms: Insertion sort, selection sort.
+•	Searching Techniques: Linear search, basic binary search.
+
+Practice (2 hours)
+•	Implement insertion sort, selection sort.
+•	Practice linear search, basic binary search.
