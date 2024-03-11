@@ -1,0 +1,17 @@
+DSA Journey
+Day ⿡
+
+# Array
+
+Study Theory (1 hour)
+•	Basic Operations: Insertion, deletion, searching.
+•	Simple Manipulations: Reversal, rotation.
+
+Practice (1 hour)
+•	Implement basic array operations: insertion, deletion, searching.
+•	Solve simple array manipulation problems.
+
+
+
+Start From Here 
+https://www.geeksforgeeks.org/what-is-array/?ref=lbp

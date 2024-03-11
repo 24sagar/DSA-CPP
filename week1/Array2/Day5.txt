@@ -1,9 +1,0 @@
-Day 5: Array (continued)
-
-Study Theory (1 hour)
-•	Searching Algorithms: Linear search, binary search.
-•	Sorting Algorithms: Bubble sort, selection sort.
-
-Practice (1 hour)
-•	Implement searching algorithms: linear search, binary search.
-•	Implement sorting algorithms: bubble sort, selection sort

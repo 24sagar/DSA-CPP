@@ -1,0 +1,10 @@
+Day 2: String
+
+Study Theory (1 hour)
+•	Basic Operations: Concatenation, substring search.
+•	Pattern Matching: Brute force, naive pattern matching.
+
+Practice (1 hour)
+•	Implement string operations: concatenation, substring search.
+•	Solve problems related to pattern matching.
+

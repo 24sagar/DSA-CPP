@@ -1,0 +1,9 @@
+Day 3: Linked List
+
+Study Theory (1 hour)
+•	Singly Linked List: Basic operations (insertion, deletion).
+•	Doubly Linked List: Implementing doubly linked list operations.
+
+Practice (2 hours)
+•	Implement basic operations of singly linked list.
+•	Implement doubly linked list operations.

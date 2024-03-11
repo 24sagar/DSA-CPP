@@ -1,0 +1,9 @@
+Day 5: Stack
+
+Study Theory (0.5 hours)
+•	Basic Stack Operations: Push, pop.
+•	Stack Implementation: Using arrays, linked lists.
+
+Practice (0.5 hours)
+•	Implement push, pop operations using arrays.
+•	Implement push, pop operations using linked lists.

@@ -1,0 +1,70 @@
+Structures, Unions and Enumerations in C++
+
+The structure is a user-defined data type that is available in C++.
+Structures are used to combine different types of data types, just like an array is used to combine the same type of data types.
+A structure is declared by using the keyword “struct“. 
+When we declare a variable of the structure we need to write the keyword “struct in C language but for C++ the keyword is not mandatory
+
+Syntax:
+
+struct 
+{
+   // Declaration of the struct
+}
+
+Structure using typedef: typedef is a keyword that is used to assign a new name to any existing data-type.
+
+typedef struct GeekForGeeks {
+ 
+    int G1;
+    char G2;
+    float G3;
+ 
+} GFG;
+
+
+Unions: 
+A union is a type of structure that can be used where the amount of memory used is a key factor. 
+Similarly to the structure, the union can contain different types of data types.
+
+// Defining a Union
+union GFG {
+    int Geek1;
+    char Geek2;
+    float Geek3;
+};
+
+// Initializing Union
+    union GFG G1;
+    
+
+Enums: Enums are user-defined types that consist of named integral constants.
+
+It helps to assign constants to a set of names to make the program easier to read, maintain and understand.
+An Enumeration is declared by using the keyword “enum“.
+
+/ Defining  an enum
+enum GeeksforGeeks { Geek1, Geek2, Geek3 };
+ 
+GeeksforGeeks G1 = Geek1;
+GeeksforGeeks G2 = Geek2;
+GeeksforGeeks G3 = Geek3;
+
+In the above code, the named constants like Geek1, Geek2, and Geek3 have assigned integral values such as 0, 1, 2 respectively while the output is given.
+
+new and delete Operators in C++ For Dynamic Memory
+Dynamic memory allocation in C/C++ refers to performing memory allocation manually by a programmer.
+Dynamically allocated memory is allocated on Heap, and non-static and local variables get memory allocated on Stack 
+
+new operator
+The new operator denotes a request for memory allocation on the Free Store.
+// Combine declaration of pointer 
+// and their assignment
+int *p = new int; 
+
+delete operator
+Since it is the programmer’s responsibility to deallocate dynamically allocated memory, programmers are provided delete operator in C++ language. 
+Syntax: 
+
+// Release memory pointed by pointer-variable
+delete pointer-variable; 

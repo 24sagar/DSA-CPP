@@ -1,0 +1,9 @@
+Day 2: Matrix
+
+Study Theory (0.5 hours)
+•	Matrix Operations: Addition, subtraction.
+•	Basic Matrix Multiplication: Naive matrix multiplication.
+
+Practice (0.5 hours)
+•	Implement addition, subtraction of matrices.
+•	Implement naive matrix multiplication.

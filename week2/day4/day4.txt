@@ -1,0 +1,9 @@
+Day 4: Queue
+
+Study Theory (0.5 hours)
+•	Queue Operations: Enqueue, dequeue.
+•	Queue Implementation: Using arrays, linked lists.
+
+Practice (0.5 hours)
+•	Implement enqueue, dequeue operations using arrays.
+•	Implement enqueue, dequeue operations using linked lists.

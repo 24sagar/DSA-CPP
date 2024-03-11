@@ -1,0 +1,9 @@
+Day 4: Recursion
+
+Study Theory (1 hour)
+Understanding Recursion: Basic recursive functions (factorial, Fibonacci).
+Recursive Backtracking: Simple problems like generating subsets, permutations.
+
+Practice (1 hour)
+Implement recursive algorithms: factorial, Fibonacci.
+Solve problems involving recursive backtracking.
