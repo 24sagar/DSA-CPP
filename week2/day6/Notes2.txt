@@ -1,0 +1,63 @@
+Introduction to Priority Queue
+
+A priority queue is a type of queue that arranges elements based on their priority values. 
+Elements with higher priority values are typically retrieved before elements with lower priority values.
+
+There are several ways to implement a priority queue, including using an array, linked list, heap, or binary search tree.
+Each method has its own advantages and disadvantages.
+
+Priority queues are often used in real-time systems, where the order in which elements are processed can have significant consequences. 
+They are also used in algorithms to improve their efficiencies,
+such as Dijkstra’s algorithm for finding the shortest path in a graph and the A* search algorithm for pathfinding.
+
+
+priority Queue is an extension of the queue with the following properties. 
+
+Every item has a priority associated with it.
+An element with high priority is dequeued before an element with low priority.
+If two elements have the same priority, they are served according to their order in the queue.
+
+
+Operations of a Priority Queue:
+A typical priority queue supports the following operations:
+
+1) Insertion in a Priority Queue
+When a new element is inserted in a priority queue, it moves to the empty slot from top to bottom and left to right. 
+However, if the element is not in the correct place then it will be compared with the parent node. If the element is not in the correct order, 
+the elements are swapped. The swapping process continues until all the elements are placed in the correct position.
+
+2) Deletion in a Priority Queue  
+As you know that in a max heap, the maximum element is the root node. And it will remove the element which has maximum priority first. 
+Thus, you remove the root node from the queue. This removal creates an empty slot, which will be further filled with new insertion. 
+Then, it compares the newly inserted element with all the elements inside the queue to maintain the heap invariant.
+
+3) Peek in a Priority Queue
+This operation helps to return the maximum element from Max Heap or the minimum element from Min Heap without deleting the node from the priority queue.
+
+
+Types of Priority Queue:
+1) Ascending Order Priority Queue
+4,6,8,9,10
+2) Descending order Priority Queue 
+10,9,8,6,4
+
+Applications of Priority Queue: 
+CPU Scheduling
+Graph algorithms like Dijkstra’s shortest path algorithm, Prim’s Minimum Spanning Tree, etc.
+Stack Implementation
+All queue applications where priority is involved.
+Data compression in Huffman code
+Event-driven simulation such as customers waiting in a queue.
+Finding Kth largest/smallest element.
+
+
+Priority Queue using stl operations: 
+
+priority_queue::empty()	Returns whether the queue is empty.
+priority_queue::size() 	Returns the size of the queue.
+priority_queue::top()	Returns a reference to the topmost element of the queue.
+priority_queue::push() 	Adds the element ‘g’ at the end of the queue.
+priority_queue::pop()	Deletes the first element of the queue.
+priority_queue::swap()	Used to swap the contents of two queues provided the queues must be of the same type, although sizes may differ.
+priority_queue::emplace()	Used to insert a new element into the priority queue container.
+priority_queue value_type 	Represents the type of object stored as an element in a priority_queue. It acts as a synonym for the template parameter.

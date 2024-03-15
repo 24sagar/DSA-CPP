@@ -1,0 +1,38 @@
+What is a queue?
+
+A queue is a data structure in which whatever comes first will go out first, and it follows the FIFO (First-In-First-Out) policy. 
+Insertion in the queue is done from one end known as the rear end or the tail, whereas the deletion is done from another end known as the front 
+end or the head of the queue.
+
+The real-world example of a queue is the ticket queue outside a cinema hall, 
+where the person who enters first in the queue gets the ticket first, and the person enters last in the queue gets the ticket at last.
+
+
+What is a Deque (or double-ended queue)
+
+The deque stands for Double Ended Queue. Deque is a linear data structure where the insertion and deletion operations are performed from both ends.
+We can say that deque is a generalized version of the queue.
+
+There are two types of deque -
+
+Input restricted queue
+In input restricted queue, insertion operation can be performed at only one end, while deletion can be performed from both ends.
+
+Output restricted queue
+In output restricted queue, deletion operation can be performed at only one end, while insertion can be performed from both ends.
+
+
+Operations performed on deque
+There are the following operations that can be applied on a deque -
+
+Insertion at front
+Insertion at rear
+Deletion at front
+Deletion at rear
+
+
+Breadth First Search
+
+Breadth First Search (BFS) is a fundamental graph traversal algorithm. It involves visiting all the connected nodes of a graph in a level-by-level manner.
+BFS is commonly used in algorithms for pathfinding, connected components, and shortest path problems in graphs.
+

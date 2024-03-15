@@ -1,0 +1,9 @@
+Day 6: Queue (Continued)
+
+Study Theory (0.5 hours)
+•	Circular Queue: Implementing a circular queue.
+•	Priority Queue: Basic priority queue implementation.
+
+Practice (0.5 hours)
+•	Implement circular queue operations.
+•	Implement basic priority queue operations.

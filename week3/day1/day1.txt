@@ -1,0 +1,10 @@
+Day 1: Tree
+
+Study Theory (2 hours)
+Binary Tree: Basic properties and operations.
+Binary Search Tree (BST): Insertion, deletion, searching.
+
+Practice (2 hours)
+Implement basic operations of binary tree.
+Implement insertion, deletion, searching in BST.
+
