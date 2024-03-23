@@ -1,0 +1,22 @@
+Representation of Graphs
+There are two ways to store a graph:
+
+Adjacency Matrix
+Adjacency List
+
+
+Adjacency Matrix
+In this method, the graph is stored in the form of the 2D matrix where rows and columns denote vertices. 
+Each entry in the matrix represents the weight of the edge between those vertices. 
+
+Adjacency List
+This graph is represented as a collection of linked lists. There is an array of pointer which points to the edges connected to that vertex. 
+
+
+Basic Operations on Graphs
+Below are the basic operations on the graph:
+
+Insertion of Nodes/Edges in the graph – Insert a node into the graph.
+Deletion of Nodes/Edges in the graph – Delete a node from the graph.
+Searching on Graphs – Search an entity in the graph.
+Traversal of Graphs – Traversing all the nodes in the graph.

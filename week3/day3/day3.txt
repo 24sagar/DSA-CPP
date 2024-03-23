@@ -1,0 +1,10 @@
+Day 3: Heap
+
+Study Theory (1.5 hours)
+•	Min Heap and Max Heap: Understanding heap properties.
+•	Heap Operations: Insertion, deletion, heapify.
+
+Practice (1.5 hours)
+•	Implement basic heap operations: insertion, deletion, heapify.
+•	Implement heap sort algorithm.
+

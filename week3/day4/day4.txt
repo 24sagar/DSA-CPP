@@ -1,0 +1,9 @@
+Day 4: Tree (Continued)
+
+Study Theory (1 hour)
+•	AVL Tree: Understanding and balancing AVL trees.
+•	Binary Heap: Basic operations (insertion, deletion).
+
+Practice (1 hour)
+•	Implement AVL tree operations: balancing, rotation.
+•	Implement basic operations of binary heap.

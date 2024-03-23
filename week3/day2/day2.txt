@@ -1,0 +1,10 @@
+Day 2: Graph
+
+Study Theory (2 hours)
+•	Graph Representation: Adjacency matrix, adjacency list.
+•	Graph Traversal: Depth-first search (DFS), breadth-first search (BFS).
+
+Practice (2 hours)
+•	Implement graph representation using adjacency matrix and adjacency list.
+•	Implement DFS and BFS traversal algorithms.
+
